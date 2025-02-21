@@ -14,7 +14,7 @@ const TestAPI = () => {
       });
       setResponse(res.data);
     } catch (error) {
-      setResponse(error.response?.data || "Server error");
+      setResponse(error.response?.data || "Server error234");
     }
   };
 
